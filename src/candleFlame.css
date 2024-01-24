@@ -1,0 +1,21 @@
+.candle-flame {
+    width: 10px;
+    height: 150px;
+    background: #ff5722;
+    border-radius: 5px;
+    position: relative;
+    animation: flame 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes flame {
+    0% {
+      transform: scaleY(1) translateY(0);
+    }
+    50% {
+      transform: scaleY(1.2) translateY(-10px);
+    }
+    100% {
+      transform: scaleY(1) translateY(0);
+    }
+  }
+  
